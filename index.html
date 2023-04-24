@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>BlackJack</title>
 </head>
 <body>
+    <div class="game_box">
+        <h1>BlackJack</h1>
+        <p id="message-el">Want to play around?</p>
+        <h3 id="card-el">Cards:</h3>
+        <h3 id="sum-el">Sum:</h3>
+        <button onclick = "startGame()" class="btn" id="click">PLAY</button>
+        <button onclick = "resetGame()" class="btn">RESTART</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
