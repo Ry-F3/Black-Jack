@@ -58,3 +58,13 @@ function startGame() {
     sumEl.innerHTML = "Sum: " + sum;
     cardEl.textContent = "Cards: " + num1 + " & " + num2;
 }
+
+
+// The resetGame function resets the game state to default values and updates the UI to reflect these changes.
+
+function resetGame() {
+    console.log("---------reset all value---------");
+    default_value(); // Initializes variables to default values
+    document.getElementById('sum-el').innerHTML = "Sum: " + 0; 
+    document.getElementById('card-el').innerHTML = "Cards: " + 0 + " & " + 0; 
+}
